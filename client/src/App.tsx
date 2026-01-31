@@ -1,4 +1,4 @@
-/* Botanical Apothecary Modernism - Light theme with natural linen background */
+/* Dark Enchantment Mixology - Dark theme for high-end cocktail bar */
 
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -23,7 +23,7 @@ function Router() {
 function App() {
   return (
     <ErrorBoundary>
-      <ThemeProvider defaultTheme="light">
+      <ThemeProvider defaultTheme="dark">
         <TooltipProvider>
           <Toaster />
           <Router />

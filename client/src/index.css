@@ -41,98 +41,98 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
   
-  /* Custom botanical apothecary colors */
-  --color-sage: oklch(0.65 0.05 135);
-  --color-eucalyptus: oklch(0.60 0.06 165);
-  --color-forest: oklch(0.35 0.05 150);
-  --color-terracotta: oklch(0.60 0.12 35);
-  --color-linen: oklch(0.97 0.01 85);
-  --color-cream: oklch(0.94 0.02 85);
+  /* Dark Enchantment Mixology Theme
+     Deep forest blacks and midnight blues with luminous emerald and gold accents
+  */
+  --color-forest-black: oklch(0.12 0.01 150);
+  --color-midnight: oklch(0.18 0.03 240);
+  --color-emerald: oklch(0.55 0.15 165);
+  --color-gold: oklch(0.70 0.12 85);
 }
 
-/* Botanical Apothecary Modernism Theme
-   Design Philosophy: Contemporary wellness meets ancient herbalism
-   Color Palette: Medicinal greens (sage, eucalyptus) with terracotta accents on natural linen
-   Typography: Libre Baskerville (display) + Source Sans 3 (body) + EB Garamond (accents)
+/* Dark Enchantment Mixology - High-end cocktail bar aesthetic
+   Design Philosophy: Sophisticated mystical bar with focus on craft cocktails
+   Color Palette: Deep forest blacks, midnight blues, luminous emerald, and warm gold
+   Typography: Playfair Display (elegant serifs) + Montserrat (modern sans)
 */
 
 :root {
-  /* Primary: Sage green for healing, natural wellness */
-  --primary: oklch(0.55 0.06 135);
-  --primary-foreground: oklch(0.98 0.01 85);
+  /* Primary: Luminous emerald for mystical sophistication */
+  --primary: oklch(0.58 0.16 165);
+  --primary-foreground: oklch(0.98 0.01 0);
   
-  /* Sidebar: Eucalyptus tones */
-  --sidebar-primary: oklch(0.58 0.07 165);
-  --sidebar-primary-foreground: oklch(0.98 0.01 85);
+  /* Sidebar */
+  --sidebar-primary: oklch(0.58 0.16 165);
+  --sidebar-primary-foreground: oklch(0.98 0.01 0);
   
-  /* Chart colors: Natural botanical palette */
-  --chart-1: oklch(0.65 0.05 135);
-  --chart-2: oklch(0.60 0.06 165);
-  --chart-3: oklch(0.60 0.12 35);
-  --chart-4: oklch(0.35 0.05 150);
-  --chart-5: oklch(0.45 0.05 145);
+  /* Chart colors: Mystical palette */
+  --chart-1: oklch(0.58 0.16 165);
+  --chart-2: oklch(0.70 0.12 85);
+  --chart-3: oklch(0.45 0.12 280);
+  --chart-4: oklch(0.35 0.08 165);
+  --chart-5: oklch(0.50 0.10 175);
   
-  --radius: 0.5rem;
+  --radius: 0.25rem;
   
-  /* Light theme: Natural linen background */
-  --background: oklch(0.97 0.01 85);
-  --foreground: oklch(0.25 0.02 150);
-  --card: oklch(0.99 0.005 85);
-  --card-foreground: oklch(0.25 0.02 150);
-  --popover: oklch(0.99 0.005 85);
-  --popover-foreground: oklch(0.25 0.02 150);
-  --secondary: oklch(0.92 0.015 85);
-  --secondary-foreground: oklch(0.30 0.03 150);
-  --muted: oklch(0.90 0.02 85);
-  --muted-foreground: oklch(0.50 0.03 150);
-  --accent: oklch(0.60 0.12 35);
-  --accent-foreground: oklch(0.98 0.01 85);
-  --destructive: oklch(0.55 0.20 25);
-  --destructive-foreground: oklch(0.98 0.01 85);
-  --border: oklch(0.85 0.02 85);
-  --input: oklch(0.85 0.02 85);
-  --ring: oklch(0.55 0.06 135);
-  --sidebar: oklch(0.96 0.01 85);
-  --sidebar-foreground: oklch(0.25 0.02 150);
-  --sidebar-accent: oklch(0.92 0.015 85);
-  --sidebar-accent-foreground: oklch(0.25 0.02 150);
-  --sidebar-border: oklch(0.85 0.02 85);
-  --sidebar-ring: oklch(0.55 0.06 135);
+  /* Dark theme: Deep forest background */
+  --background: oklch(0.10 0.015 150);
+  --foreground: oklch(0.95 0.01 85);
+  --card: oklch(0.14 0.02 150);
+  --card-foreground: oklch(0.95 0.01 85);
+  --popover: oklch(0.14 0.02 150);
+  --popover-foreground: oklch(0.95 0.01 85);
+  --secondary: oklch(0.20 0.03 240);
+  --secondary-foreground: oklch(0.90 0.02 85);
+  --muted: oklch(0.25 0.03 150);
+  --muted-foreground: oklch(0.65 0.04 165);
+  --accent: oklch(0.70 0.12 85);
+  --accent-foreground: oklch(0.10 0.015 150);
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.98 0.01 0);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.58 0.16 165);
+  --sidebar: oklch(0.12 0.015 150);
+  --sidebar-foreground: oklch(0.95 0.01 85);
+  --sidebar-accent: oklch(0.20 0.03 240);
+  --sidebar-accent-foreground: oklch(0.95 0.01 85);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.58 0.16 165);
 }
 
 .dark {
-  --primary: oklch(0.60 0.06 135);
-  --primary-foreground: oklch(0.15 0.02 150);
-  --sidebar-primary: oklch(0.58 0.07 165);
-  --sidebar-primary-foreground: oklch(0.15 0.02 150);
-  --background: oklch(0.15 0.02 150);
-  --foreground: oklch(0.92 0.015 85);
-  --card: oklch(0.20 0.02 150);
-  --card-foreground: oklch(0.92 0.015 85);
-  --popover: oklch(0.20 0.02 150);
-  --popover-foreground: oklch(0.92 0.015 85);
-  --secondary: oklch(0.25 0.03 150);
-  --secondary-foreground: oklch(0.85 0.02 85);
-  --muted: oklch(0.30 0.03 150);
-  --muted-foreground: oklch(0.65 0.04 135);
-  --accent: oklch(0.60 0.12 35);
-  --accent-foreground: oklch(0.98 0.01 85);
-  --destructive: oklch(0.60 0.20 25);
-  --destructive-foreground: oklch(0.98 0.01 85);
-  --border: oklch(1 0 0 / 15%);
-  --input: oklch(1 0 0 / 20%);
-  --ring: oklch(0.60 0.06 135);
-  --chart-1: oklch(0.65 0.05 135);
-  --chart-2: oklch(0.60 0.06 165);
-  --chart-3: oklch(0.60 0.12 35);
-  --chart-4: oklch(0.45 0.05 145);
-  --chart-5: oklch(0.55 0.06 140);
-  --sidebar: oklch(0.18 0.02 150);
-  --sidebar-foreground: oklch(0.92 0.015 85);
-  --sidebar-accent: oklch(0.25 0.03 150);
-  --sidebar-accent-foreground: oklch(0.92 0.015 85);
-  --sidebar-border: oklch(1 0 0 / 15%);
-  --sidebar-ring: oklch(0.60 0.06 135);
+  --primary: oklch(0.58 0.16 165);
+  --primary-foreground: oklch(0.98 0.01 0);
+  --sidebar-primary: oklch(0.58 0.16 165);
+  --sidebar-primary-foreground: oklch(0.98 0.01 0);
+  --background: oklch(0.10 0.015 150);
+  --foreground: oklch(0.95 0.01 85);
+  --card: oklch(0.14 0.02 150);
+  --card-foreground: oklch(0.95 0.01 85);
+  --popover: oklch(0.14 0.02 150);
+  --popover-foreground: oklch(0.95 0.01 85);
+  --secondary: oklch(0.20 0.03 240);
+  --secondary-foreground: oklch(0.90 0.02 85);
+  --muted: oklch(0.25 0.03 150);
+  --muted-foreground: oklch(0.65 0.04 165);
+  --accent: oklch(0.70 0.12 85);
+  --accent-foreground: oklch(0.10 0.015 150);
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.98 0.01 0);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.58 0.16 165);
+  --chart-1: oklch(0.58 0.16 165);
+  --chart-2: oklch(0.70 0.12 85);
+  --chart-3: oklch(0.45 0.12 280);
+  --chart-4: oklch(0.35 0.08 165);
+  --chart-5: oklch(0.50 0.10 175);
+  --sidebar: oklch(0.12 0.015 150);
+  --sidebar-foreground: oklch(0.95 0.01 85);
+  --sidebar-accent: oklch(0.20 0.03 240);
+  --sidebar-accent-foreground: oklch(0.95 0.01 85);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.58 0.16 165);
 }
 
 @layer base {
@@ -141,11 +141,12 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
   }
   
@@ -191,17 +192,26 @@
     }
   }
   
-  /* Botanical decorative elements */
-  .botanical-accent {
-    font-family: 'EB Garamond', serif;
+  /* Mystical accent text */
+  .mystical-accent {
+    font-family: 'Playfair Display', serif;
     font-style: italic;
+    font-weight: 400;
   }
   
+  /* Uppercase labels */
   .label-text {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+  }
+  
+  /* Glass morphism effect for cards */
+  .glass-card {
+    background: oklch(1 0 0 / 5%);
+    backdrop-filter: blur(12px);
+    border: 1px solid oklch(1 0 0 / 10%);
   }
 }
