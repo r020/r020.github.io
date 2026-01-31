@@ -118,9 +118,8 @@ export default function Home() {
                   Gin infused with wild juniper, elderflower liqueur, fresh sage, and a whisper of cucumber. 
                   Garnished with edible flowers.
                 </p>
-                <div className="flex items-center justify-between pt-4 border-t border-border/30">
+                <div className="pt-4 border-t border-border/30">
                   <span className="mystical-accent text-primary text-sm">Herbaceous • Ethereal</span>
-                  <span className="text-accent font-semibold">$18</span>
                 </div>
               </CardContent>
             </Card>
@@ -141,9 +140,8 @@ export default function Home() {
                   Activated charcoal-infused vodka, blackberry, rosemary smoke, and a touch of vanilla. 
                   Served in a crystal coupe.
                 </p>
-                <div className="flex items-center justify-between pt-4 border-t border-border/30">
+                <div className="pt-4 border-t border-border/30">
                   <span className="mystical-accent text-primary text-sm">Dark • Mysterious</span>
-                  <span className="text-accent font-semibold">$20</span>
                 </div>
               </CardContent>
             </Card>
@@ -164,9 +162,8 @@ export default function Home() {
                   Aged rum, turmeric honey, fresh ginger, cardamom, and citrus. 
                   A healing elixir with warmth and depth.
                 </p>
-                <div className="flex items-center justify-between pt-4 border-t border-border/30">
+                <div className="pt-4 border-t border-border/30">
                   <span className="mystical-accent text-primary text-sm">Warming • Spiced</span>
-                  <span className="text-accent font-semibold">$19</span>
                 </div>
               </CardContent>
             </Card>
@@ -187,9 +184,8 @@ export default function Home() {
                   Ceremonial matcha, Japanese whisky, coconut cream, and mint. 
                   A fusion of tradition and innovation.
                 </p>
-                <div className="flex items-center justify-between pt-4 border-t border-border/30">
+                <div className="pt-4 border-t border-border/30">
                   <span className="mystical-accent text-primary text-sm">Creamy • Zen</span>
-                  <span className="text-accent font-semibold">$21</span>
                 </div>
               </CardContent>
             </Card>
@@ -210,9 +206,8 @@ export default function Home() {
                   Mezcal, lavender-infused Aperol, grapefruit, and a dash of absinthe. 
                   Smoky, floral, and utterly enchanting.
                 </p>
-                <div className="flex items-center justify-between pt-4 border-t border-border/30">
+                <div className="pt-4 border-t border-border/30">
                   <span className="mystical-accent text-primary text-sm">Smoky • Floral</span>
-                  <span className="text-accent font-semibold">$22</span>
                 </div>
               </CardContent>
             </Card>
@@ -233,9 +228,8 @@ export default function Home() {
                   House-made botanical tonic with adaptogenic herbs, citrus, and sparkling water. 
                   Non-alcoholic sophistication.
                 </p>
-                <div className="flex items-center justify-between pt-4 border-t border-border/30">
+                <div className="pt-4 border-t border-border/30">
                   <span className="mystical-accent text-primary text-sm">Restorative • Pure</span>
-                  <span className="text-accent font-semibold">$12</span>
                 </div>
               </CardContent>
             </Card>
