@@ -432,22 +432,7 @@ export default function Home() {
                       between our drinks and the natural environment. Each venue reflects our commitment 
                       to sustainability and community.
                     </p>
-                    
-                    <h3 className="text-3xl mb-6 mt-10">Hours</h3>
-                    <div className="space-y-3 text-lg">
-                      <div className="flex justify-between text-muted-foreground">
-                        <span>Wednesday - Thursday</span>
-                        <span className="text-foreground">6pm - 1am</span>
-                      </div>
-                      <div className="flex justify-between text-muted-foreground">
-                        <span>Friday - Saturday</span>
-                        <span className="text-foreground">6pm - 2am</span>
-                      </div>
-                      <div className="flex justify-between text-muted-foreground">
-                        <span>Sunday</span>
-                        <span className="text-foreground">5pm - 11pm</span>
-                      </div>
-                    </div>
+
                   </div>
                   
                   <div>
@@ -465,15 +450,7 @@ export default function Home() {
                         Join Our Community
                       </Button>
                     </div>
-                    
-                    <div className="mt-10 pt-10 border-t border-border/30">
-                      <h3 className="text-2xl mb-4">Get in Touch</h3>
-                      <div className="space-y-3 text-muted-foreground">
-                        <p>Instagram: @FoodForHumans</p>
-                        <p>Email: hello@foodforhumans.com</p>
-                        <p>Community: Join our mailing list</p>
-                      </div>
-                    </div>
+
                   </div>
                 </div>
               </CardContent>
