@@ -70,41 +70,29 @@ export default function Home() {
         </div>
         
         <div className="container relative z-10">
-          <div className="grid lg:grid-cols-2 gap-16 items-center max-w-6xl mx-auto">
-            <div>
-              <div className="label-text text-primary mb-4 flex items-center gap-2">
-                <Heart className="w-4 h-4" />
-                Our Philosophy
-              </div>
-              <h2 className="text-5xl md:text-6xl mb-8 leading-tight">
-                Connecting Through Conscious Craft
-              </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Food for Humans is more than a bar—it's a collective and platform that connects people through 
-                food and drink, promoting a healthy, sustainable, and conscious way of life. Each cocktail uses 
-                local, seasonal, and wild plants, flavored waters, and natural syrups, creating an experience 
-                deeply connected to nature.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                The project encourages responsible sourcing, ethical practices, minimal environmental impact, 
-                and biodegradable materials, while connecting producers, bartenders, and the community through 
-                bar and culinary creativity.
-              </p>
-              <p className="text-lg text-foreground leading-relaxed font-medium">
-                Each cocktail becomes a small ambassador of the Food for Humans philosophy: flavor, sustainability, 
-                and togetherness in every sip.
-              </p>
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="label-text text-primary mb-4 inline-flex items-center gap-2">
+              <Heart className="w-4 h-4" />
+              Our Philosophy
             </div>
-            
-            <div className="relative">
-              <img 
-                src="/images/ffh-bar-setup-3.jpg" 
-                alt="Sustainable ingredients" 
-                className="rounded-lg shadow-2xl w-full"
-              />
-              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary/20 rounded-full blur-3xl"></div>
-              <div className="absolute -top-6 -right-6 w-40 h-40 bg-accent/20 rounded-full blur-3xl"></div>
-            </div>
+            <h2 className="text-5xl md:text-6xl mb-8 leading-tight">
+              Connecting Through Conscious Craft
+            </h2>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              Food for Humans is more than a bar—it's a collective and platform that connects people through 
+              food and drink, promoting a healthy, sustainable, and conscious way of life. Each cocktail uses 
+              local, seasonal, and wild plants, flavored waters, and natural syrups, creating an experience 
+              deeply connected to nature.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              The project encourages responsible sourcing, ethical practices, minimal environmental impact, 
+              and biodegradable materials, while connecting producers, bartenders, and the community through 
+              bar and culinary creativity.
+            </p>
+            <p className="text-lg text-foreground leading-relaxed font-medium">
+              Each cocktail becomes a small ambassador of the Food for Humans philosophy: flavor, sustainability, 
+              and togetherness in every sip.
+            </p>
           </div>
         </div>
       </section>
