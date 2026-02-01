@@ -16,7 +16,7 @@ export default function Home() {
       <section className="relative h-screen flex items-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(/images/hero-forest-apothecary.png)' }}
+          style={{ backgroundImage: 'url(/images/ffh-bar-setup-1.jpg)' }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/60 to-background"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-transparent to-background/40"></div>
@@ -98,7 +98,7 @@ export default function Home() {
             
             <div className="relative">
               <img 
-                src="/images/botanical-tea-ceremony.png" 
+                src="/images/ffh-bar-setup-3.jpg" 
                 alt="Sustainable ingredients" 
                 className="rounded-lg shadow-2xl w-full"
               />
@@ -113,7 +113,7 @@ export default function Home() {
       <section className="py-32 bg-background relative overflow-hidden">
         <div 
           className="absolute inset-0 opacity-15 bg-cover bg-center"
-          style={{ backgroundImage: 'url(/images/forest-ambiance-texture.png)' }}
+          style={{ backgroundImage: 'url(/images/ffh-cocktail-3.jpg)' }}
         ></div>
         
         <div className="container relative z-10">
@@ -205,7 +205,7 @@ export default function Home() {
             <Card className="group hover:shadow-2xl hover:shadow-primary/20 transition-all duration-700 hover:-translate-y-2 overflow-hidden bg-card border-border/50">
               <div className="h-80 overflow-hidden relative">
                 <img 
-                  src="/images/cocktail-botanical-art.png" 
+                  src="/images/ffh-cocktail-1.jpg" 
                   alt="Wild Forest Elixir" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -227,7 +227,7 @@ export default function Home() {
             <Card className="group hover:shadow-2xl hover:shadow-primary/20 transition-all duration-700 hover:-translate-y-2 overflow-hidden bg-card border-border/50">
               <div className="h-80 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80" 
+                  src="/images/ffh-cocktail-2.jpg" 
                   alt="Seasonal Root Ritual" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -249,7 +249,7 @@ export default function Home() {
             <Card className="group hover:shadow-2xl hover:shadow-primary/20 transition-all duration-700 hover:-translate-y-2 overflow-hidden bg-card border-border/50">
               <div className="h-80 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1536935338788-846bb9981813?w=800&q=80" 
+                  src="/images/ffh-cocktail-4.jpg" 
                   alt="Golden Harvest" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -271,7 +271,7 @@ export default function Home() {
             <Card className="group hover:shadow-2xl hover:shadow-primary/20 transition-all duration-700 hover:-translate-y-2 overflow-hidden bg-card border-border/50">
               <div className="h-80 overflow-hidden relative">
                 <img 
-                  src="/images/botanical-tea-ceremony.png" 
+                  src="/images/ffh-bar-setup-3.jpg" 
                   alt="Ceremonial Green" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -293,7 +293,7 @@ export default function Home() {
             <Card className="group hover:shadow-2xl hover:shadow-primary/20 transition-all duration-700 hover:-translate-y-2 overflow-hidden bg-card border-border/50">
               <div className="h-80 overflow-hidden relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80" 
+                  src="/images/ffh-cocktail-1.jpg" 
                   alt="Meadow Smoke" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -315,7 +315,7 @@ export default function Home() {
             <Card className="group hover:shadow-2xl hover:shadow-primary/20 transition-all duration-700 hover:-translate-y-2 overflow-hidden bg-card border-border/50">
               <div className="h-80 overflow-hidden relative">
                 <img 
-                  src="/images/healing-herbs-collection.png" 
+                  src="/images/ffh-bar-setup-2.jpg" 
                   alt="Living Water" 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -349,7 +349,7 @@ export default function Home() {
       <section id="approach" className="py-32 bg-background relative overflow-hidden">
         <div 
           className="absolute inset-0 opacity-15 bg-cover bg-center"
-          style={{ backgroundImage: 'url(/images/forest-ambiance-texture.png)' }}
+          style={{ backgroundImage: 'url(/images/ffh-cocktail-3.jpg)' }}
         ></div>
         
         <div className="container relative z-10">
@@ -357,7 +357,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/hero-forest-apothecary.png" 
+                  src="/images/ffh-bar-setup-2.jpg" 
                   alt="Sustainable practices" 
                   className="w-full h-[600px] object-cover"
                 />
