@@ -12,28 +12,6 @@ import { Wine, Sparkles, Leaf, MapPin, ChevronRight, Sprout, Heart } from "lucid
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 glass-card">
-        <div className="container">
-          <div className="flex items-center justify-between h-20">
-            <div className="flex items-center">
-              <img 
-                src="/images/food-for-humans-logo.png" 
-                alt="Food for Humans" 
-                className="h-12 w-auto"
-              />
-            </div>
-            
-            <div className="hidden md:flex items-center gap-8">
-              <a href="#philosophy" className="text-sm font-medium hover:text-primary transition-colors">Philosophy</a>
-              <a href="#cocktails" className="text-sm font-medium hover:text-primary transition-colors">Cocktails</a>
-              <a href="#approach" className="text-sm font-medium hover:text-primary transition-colors">Our Approach</a>
-              <a href="#visit" className="text-sm font-medium hover:text-primary transition-colors">Visit</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-
       {/* Hero Section */}
       <section className="relative h-screen flex items-center overflow-hidden">
         <div 
@@ -52,7 +30,7 @@ export default function Home() {
           <div className="absolute top-2/3 right-1/4 w-1 h-1 bg-accent rounded-full animate-pulse opacity-30" style={{ animationDelay: '1.5s' }}></div>
         </div>
         
-        <div className="container relative z-10 pt-20">
+        <div className="container relative z-10">
           <div className="max-w-3xl">
             <div className="label-text text-primary mb-6 flex items-center gap-2">
               <Sprout className="w-4 h-4" />
