@@ -16,9 +16,12 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 glass-card">
         <div className="container">
           <div className="flex items-center justify-between h-20">
-            <div className="flex items-center gap-2">
-              <Leaf className="w-6 h-6 text-primary" />
-              <span className="text-xl font-bold tracking-tight">Food for Humans</span>
+            <div className="flex items-center">
+              <img 
+                src="/images/food-for-humans-logo.png" 
+                alt="Food for Humans" 
+                className="h-12 w-auto"
+              />
             </div>
             
             <div className="hidden md:flex items-center gap-8">
@@ -517,9 +520,12 @@ export default function Home() {
       <footer className="py-16 bg-background border-t border-border/30">
         <div className="container">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-            <div className="flex items-center gap-3">
-              <Leaf className="w-8 h-8 text-primary" />
-              <span className="text-2xl font-bold tracking-tight">Food for Humans</span>
+            <div className="flex items-center">
+              <img 
+                src="/images/food-for-humans-logo.png" 
+                alt="Food for Humans" 
+                className="h-16 w-auto"
+              />
             </div>
             
             <p className="mystical-accent text-muted-foreground text-lg text-center">
