@@ -467,7 +467,7 @@ export default function Home() {
               <img 
                 src="/images/food-for-humans-logo.png" 
                 alt="Food for Humans" 
-                className="h-16 w-auto"
+                className="h-16 w-auto" style={{width: '182px', height: '149px'}}
               />
             </div>
             
